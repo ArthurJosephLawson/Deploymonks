@@ -464,15 +464,16 @@ Copyright (c) 2026 ArthurJosephLawson
 
 ## Author & Maintainer
 
-**Developer:** [ArthurJosephLawson](https://github.com/monk_mango) (`@monk_mango`)
+**Developer:** [ArthurJosephLawson](https://github.com/ArthurJosephLawson) (`@monk_mango`)
 
-**Background:** Freelance Software Engineer | Principal, Scriptmonks
+**Background:** Freelance Software Engineer | Lead Developer, Founder,  Scriptmonks
 
 ArthurJosephLawson is an **independent software development freelancer** and the
-**Principal / Chief Executive of Scriptmonks**. DeployMonk is authored,
+**Chief Executive of Scriptmonks**. DeployMonk is authored,
 maintained and released by him.
 
-- GitHub: [@monk_mango](https://github.com/monk_mango)
+- GitHub: [@monk_mango](https://github.com/ArthurJosephLawson)
+- Instagram:  [@monk_mango](https://instagram.com/monk_mango)
 - Issues and feature requests: [github.com/monk_mango/deploymonk/issues](https://github.com/monk_mango/deploymonk/issues)
 
 Contributions, bug reports and template requests are all welcome.
