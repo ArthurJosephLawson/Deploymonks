@@ -1,0 +1,61 @@
+# Tests Documentation
+
+This directory contains the automated test suite for **Deploymonks**. These tests verify the command-line interface, scaffolding features, template placeholders, and configuration validations.
+
+---
+
+## Current Test Files
+
+* **`cli.test.ts`** — Validates CLI execution, arguments parsing, and command routing.
+* **`placeholders.test.ts`** — Tests template variable interpolation and parsing logic.
+* **`scaffold.test.ts`** — Verifies project structuring, folder creation, and template generation.
+* **`validate.test.ts`** — Validates configuration formats, user inputs, and environment setups.
+
+---
+
+## Prerequisites
+
+Before running the tests, ensure you have installed the project dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+---
+
+## Running the Tests
+
+Execute the following commands from the root directory of the project:
+
+### Run All Tests
+```bash
+npm run test
+```
+
+### Run Tests in Watch Mode (For Development)
+```bash
+npm run test:watch
+```
+
+### Run Tests with Coverage Report
+```bash
+npm run test:coverage
+```
+
+---
+
+## Linting & Formatting
+Tests are subjected to the project's ESLint rules. You can find test-specific exclusions in `.eslintignore` and configuration settings inside `.eslintrc.cjs`. 
+
+To lint the test files:
+```bash
+npm run lint
+```
+
+---
+
+## Adding New Tests
+1. Create your test file directly in this `tests/` directory.
+2. Name the file using the `.test.ts` suffix (e.g., `my-feature.test.ts`).
+3. Keep test logic focused and isolate external filesystem or network tasks where possible.
